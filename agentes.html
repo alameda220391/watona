@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentes de Valorant</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="agentes.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Valorant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#agents">Agentes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="py-5">
+        <div class="container text-center">
+            <h1 class="display-4">Agentes de Valorant</h1>
+            <p class="lead">Conoce a todos los agentes y sus habilidades</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="agents" class="my-5">
+            <div class="row">
+                <!-- Jett -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/jett.webp" class="card-img-top" alt="Jett">
+                        <div class="card-body">
+                            <h5 class="card-title">Jett</h5>
+                            <p class="card-text">Ágil y versátil, con habilidades centradas en el movimiento.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#jettModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phoenix -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/phoenix.webp" class="card-img-top" alt="Phoenix">
+                        <div class="card-body">
+                            <h5 class="card-title">Phoenix</h5>
+                            <p class="card-text">Un guerrero de fuego con habilidades que le permiten atacar y curarse.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#phoenixModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sage -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/sage.jpg" class="card-img-top" alt="Sage">
+                        <div class="card-body">
+                            <h5 class="card-title">Sage</h5>
+                            <p class="card-text">Maestra de la curación y la protección con habilidades de apoyo.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#sageModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Raze -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/raze.webp" class="card-img-top" alt="Raze">
+                        <div class="card-body">
+                            <h5 class="card-title">Raze</h5>
+                            <p class="card-text">Especialista en explosivos con habilidades ofensivas potentes.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#razeModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cypher -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/cypher.webp" class="card-img-top" alt="Cypher">
+                        <div class="card-body">
+                            <h5 class="card-title">Cypher</h5>
+                            <p class="card-text">Un experto en el espionaje y la vigilancia con habilidades de información.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#cypherModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Omen -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/omen.webp" class="card-img-top" alt="Omen">
+                        <div class="card-body">
+                            <h5 class="card-title">Omen</h5>
+                            <p class="card-text">Un maestro de la oscuridad con habilidades de ocultación y teleportación.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#omenModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Breach -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/breach.png" class="card-img-top" alt="Breach">
+                        <div class="card-body">
+                            <h5 class="card-title">Breach</h5>
+                            <p class="card-text">Un ingeniero de demolición con habilidades que alteran el campo de batalla.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#breachModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Viper -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/viper.webp" class="card-img-top" alt="Viper">
+                        <div class="card-body">
+                            <h5 class="card-title">Viper</h5>
+                            <p class="card-text">Una experta en venenos y tácticas de área con habilidades tóxicas.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#viperModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sova -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/sova.jpg" class="card-img-top" alt="Sova">
+                        <div class="card-body">
+                            <h5 class="card-title">Sova</h5>
+                            <p class="card-text">Un rastreador experto con habilidades para localizar enemigos y desatar daño.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#sovaModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Killjoy -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/killjoy.jpg" class="card-img-top" alt="Killjoy">
+                        <div class="card-body">
+                            <h5 class="card-title">Killjoy</h5>
+                            <p class="card-text">Una inventora con habilidades de trampa y defensa para controlar el campo de batalla.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#killjoyModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skye -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/skye.webp" class="card-img-top" alt="Skye">
+                        <div class="card-body">
+                            <h5 class="card-title">Skye</h5>
+                            <p class="card-text">Una sanadora y líder con habilidades para curar y desorientar al enemigo.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#skyeModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reyna -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/reyna.jpg" class="card-img-top" alt="Reyna">
+                        <div class="card-body">
+                            <h5 class="card-title">Reyna</h5>
+                            <p class="card-text">Una duelista con habilidades que se alimentan de su capacidad para asegurar muertes.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#reynaModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yoru -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/yoru.jfif" class="card-img-top" alt="Yoru">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoru</h5>
+                            <p class="card-text">Un infiltrador con habilidades para engañar y sorprender al enemigo.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#yoruModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brimstone -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/brimstone.png" class="card-img-top" alt="Brimstone">
+                        <div class="card-body">
+                            <h5 class="card-title">Brimstone</h5>
+                            <p class="card-text">Brimstone proporciona una constante ventaja para su equipo con su arsenal orbital.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#brimstoneModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Astra -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/astra.webp" class="card-img-top" alt="Astra">
+                        <div class="card-body">
+                            <h5 class="card-title">Astra</h5>
+                            <p class="card-text">Astra canaliza las energías del cosmos para remodelar los campos de batalla a su antojo.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#astraModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kayo -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/kayo.png" class="card-img-top" alt="Kayo">
+                        <div class="card-body">
+                            <h5 class="card-title">Kayo</h5>
+                            <p class="card-text">KAY/O es una máquina de guerra construida para un único propósito.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#kayoModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chamber -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/chamber.webp" class="card-img-top" alt="Chamber">
+                        <div class="card-body">
+                            <h5 class="card-title">Chamber</h5>
+                            <p class="card-text">Bien vestido y bien armado, el diseñador de armas francés Chamber repele agresores con una precisión mortal.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#chamberModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Neon -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/neon.webp" class="card-img-top" alt="Neon">
+                        <div class="card-body">
+                            <h5 class="card-title">Neon</h5>
+                            <p class="card-text">Neon, avanza a velocidades impactantes, descargando ráfagas de energía bioeléctrica tan rápido como su cuerpo la genera.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#neonModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fade -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/fade.webp" class="card-img-top" alt="Fade">
+                        <div class="card-body">
+                            <h5 class="card-title">Fade</h5>
+                            <p class="card-text">Fade, la cazarrecompensas turca, desata el poder de las pesadillas para apoderarse de los secretos del enemigo.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#fadeModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Harbor -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/harbor.webp" class="card-img-top" alt="Harbor">
+                        <div class="card-body">
+                            <h5 class="card-title">Harbor</h5>
+                            <p class="card-text">Harbor arrasa el campo de batalla utilizando tecnología ancestral que controla el agua. </p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#harborModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gekko -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/gekko.webp" class="card-img-top" alt="Gekko">
+                        <div class="card-body">
+                            <h5 class="card-title">Gekko</h5>
+                            <p class="card-text">lidera un grupo de criaturas revoltosas y son como uña y mugre.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#gekkoModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deadlock -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/deadlok.webp" class="card-img-top" alt="Deadlock">
+                        <div class="card-body">
+                            <h5 class="card-title">Deadlock</h5>
+                            <p class="card-text">Deadlock despliega una variedad de nanocables de alta tecnología para asegurar el campo de batalla.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#deadlockModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Iso -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/iso.png" class="card-img-top" alt="Iso">
+                        <div class="card-body">
+                            <h5 class="card-title">Iso</h5>
+                            <p class="card-text"> Iso es un neutralizador a sueldo que entra en estado de fluidez para desmantelar a sus oponentes.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#isoModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Clove -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/clove.webp" class="card-img-top" alt="Clove">
+                        <div class="card-body">
+                            <h5 class="card-title">Clove</h5>
+                            <p class="card-text">Con juventud e inmortalidad, confunde a los enemigos incluso desde el más allá.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#cloveModal">Ver detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+   
+    <!-- Modal Jett -->
+    <div class="modal fade" id="jettModal" tabindex="-1" aria-labelledby="jettModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jettModalLabel">Jett - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Cloudburst</h6>
+                    <video src="imagenes/jett-humo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza una nube de humo que obstruye la visión.</p>
+                    
+
+                    <h6>Habilidad 2: Updraft</h6>
+                    <video src="imagenes/jett-video.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Permite a Jett saltar a gran altura.</p>
+
+                    <h6>Habilidad 3: Tailwind</h6>
+                    <video src="imagenes/jett-dash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Realiza un desplazamiento rápido hacia adelante.</p>
+
+                    <h6>Ultimate: Blade Storm</h6>
+                    <video src="imagenes/jett-dagas.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Phoenix -->
+    <div class="modal fade" id="phoenixModal" tabindex="-1" aria-labelledby="phoenixModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="phoenixModalLabel">Phoenix - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Blaze</h6>
+                    <video src="imagenes/phoenix-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Crea una pared de fuego que bloquea la visión y daña a cualquiera que la atraviese.</p>
+
+                    <h6>Habilidad 2: Curveball</h6>
+                    <video src="imagenes/phoenix-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza una curva de fuego que ciega a los enemigos que la ven.</p>
+
+                    <h6>Habilidad 3: Hot Hands</h6>
+                    <video src="imagenes/phoenix-fuego.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza una bola de fuego que explota al impactar el suelo, quemando a los enemigos y curando a Phoenix.</p>
+
+                    <h6>Ultimate: Run It Back</h6>
+                    <video src="imagenes/phoenix-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Coloca un marcador en su ubicación actual. Si muere durante la duración de la habilidad, renacerá en el marcador.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sage -->
+    <div class="modal fade" id="sageModal" tabindex="-1" aria-labelledby="sageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sageModalLabel">Sage - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Barrier Orb</h6>
+                    <video src="imagenes/sage-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Construye un muro sólido que puede ser utilizado para bloquear caminos o proteger a sus aliados.</p>
+
+                    <h6>Habilidad 2: Slow Orb</h6>
+                    <video src="imagenes/sage-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza una esfera que ralentiza a los enemigos en su área de efecto.</p>
+
+                    <h6>Habilidad 3: Healing Orb</h6>
+                    <video src="imagenes/sage-heal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Cura a un aliado o a sí misma durante un tiempo.</p>
+
+                    <h6>Ultimate: Resurrection</h6>
+                    <video src="imagenes/sage-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Revive a un aliado caído con salud completa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Raze -->
+    <div class="modal fade" id="razeModal" tabindex="-1" aria-labelledby="razeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="razeModalLabel">Raze - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Boom Bot</h6>
+                    <video src="imagenes/raze-rumba.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envía un robot que rebota en las paredes y explota al detectar enemigos.</p>
+
+                    <h6>Habilidad 2: Blast Pack</h6>
+                    <video src="imagenes/raze-c4.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza un paquete explosivo que puede adherirse a superficies y detonar.</p>
+
+                    <h6>Habilidad 3: Paint Shells</h6>
+                    <video src="imagenes/raze-granada.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza una granada que se fragmenta en mini-granadas, causando daño en un área amplia.</p>
+
+                    <h6>Ultimate: Showstopper</h6>
+                    <video src="imagenes/raze-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Lanza un cohete que causa una gran explosión al impactar.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Cypher -->
+    <div class="modal fade" id="cypherModal" tabindex="-1" aria-labelledby="cypherModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cypherModalLabel">Cypher - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Trapwire</h6>
+                    <video src="imagenes/cypher-cable.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Coloca una trampa que inmoviliza y revela a los enemigos atrapados en ella.</p>
+
+                    <h6>Habilidad 2: Cyber Cage</h6>
+                    <video src="imagenes/cypher-jaula.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Coloca un dispositivo que, al activarse, crea una zona que bloquea la visión y ralentiza a los enemigos.</p>
+
+                    <h6>Habilidad 3: Spycam</h6>
+                    <video src="imagenes/cypher-camara.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Coloca una cámara remota que puede utilizar para espiar y disparar dardos que revelan enemigos.</p>
+
+                    <h6>Ultimate: Neural Theft</h6>
+                    <video src="imagenes/cypher-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Extrae información de un enemigo muerto, revelando la ubicación de los enemigos vivos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Omen -->
+    <div class="modal fade" id="omenModal" tabindex="-1" aria-labelledby="omenModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="omenModalLabel">Omen - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: Shrouded Step</h6>
+                    <video src="imagenes/omen-tp.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Teletransporta a Omen a una ubicación cercana.</p>
+
+                    <h6>Habilidad 2: Paranoia</h6>
+                    <video src="imagenes/omen-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envía una sombra que desorienta y reduce la visión de los enemigos a los que alcanza.</p>
+
+                    <h6>Habilidad 3: Dark Cover</h6>
+                    <video src="imagenes/omen-humo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Crea una esfera de sombra que bloquea la visión en su interior.</p>
+
+                    <h6>Ultimate: From the Shadows</h6>
+                    <video src="imagenes/omen-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Teletransporta a Omen a cualquier lugar del mapa. Si es asesinado durante el proceso, volverá a su ubicación original.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Modal Breach -->
+      <div class="modal breach" id="breachModal" tabindex="-1" aria-labelledby="breachModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="breachModalLabel">Breach - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/breach-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/breach-temblor.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/breach-bomba.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/breach-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Viper -->
+    <div class="modal viper" id="viperModal" tabindex="-1" aria-labelledby="viperModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="viperModalLabel">Viper - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/viper-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/viper-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/viper-veneno.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/viper-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sova -->
+    <div class="modal sova" id="sovaModal" tabindex="-1" aria-labelledby="sovaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sovaModalLabel">Sova - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/sova-flecha.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/sova-reveal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/sova-dron.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/sova ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Killjoy -->
+        <div class="modal killjoy" id="killjoyModal" tabindex="-1" aria-labelledby="killjoyModallabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="killjoyModalLabel">Killjoy - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/kj-alarma.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/kj-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/kj-torreta.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/kj-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modal Skye -->
+    <div class="modal skye" id="skyeModal" tabindex="-1" aria-labelledby="skyeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="skyeModalLabel">Skye - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/skye-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/skye-heal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/skye-perro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/skye-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Reyna -->
+        <div class="modal reyna" id="reynaModal" tabindex="-1" aria-labelledby="reynaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="reynaModalLabel">Reyna - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/reyna-heal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/reyna-inmune.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/reyna-ojo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/reyna-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modal yoru -->
+    <div class="modal yoru" id="yoruModal" tabindex="-1" aria-labelledby="yoruModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="yoruModalLabel">Yoru - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/yoru-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/yoru-tp.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/yoru-clon.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/yoru-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Brimstone -->
+        <div class="modal brimstone" id="brimstoneModal" tabindex="-1" aria-labelledby="brimstoneModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="brimstoneModalLabel">Brimstone - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/brim-baliza.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/brim-humo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/brim-molly.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/brim-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modal Astra -->
+    <div class="modal astra" id="astraModal" tabindex="-1" aria-labelledby="astraModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="astraModalLabel">Astra - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/astra-aturdidor.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/astra-humo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/astra.--chupachups.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/astra-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Kayo -->
+    <div class="modal kayo" id="kayoModal" tabindex="-1" aria-labelledby="kayoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kayoModalLabel">Kayo - Habilidades</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>Habilidad 1: GLOW</h6>
+                    <video src="imagenes/kayo-cuchillo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                    
+
+                    <h6>Habilidad 2: SEISMIC FAULT</h6>
+                    <video src="imagenes/kayo-flash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+
+                    <h6>Habilidad 3: REPLICA</h6>
+                    <video src="imagenes/kayo-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+
+                    <h6>Ultimate: ROLLING THUNDER</h6>
+                    <video src="imagenes/kayo-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                    <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Chamber -->
+        <div class="modal chamber" id="chamberModal" tabindex="-1" aria-labelledby="chamberModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chamberModalLabel">Chamber - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/chamber-chiquitin.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/chamber-sheriff.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/chamber-tp.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/chamber-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Neon -->
+        <div class="modal neon" id="neonModal" tabindex="-1" aria-labelledby="neonModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="neonModalLabel">neon - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/neon-dash.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/neon-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/neon-stuns.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/neon-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Fade -->
+        <div class="modal fade" id="fadeModal" tabindex="-1" aria-labelledby="fadeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="fadeModalLabel">Fade - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/fade-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/fade-perro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/fade-reveal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/fade-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Harbor -->
+        <div class="modal harbor" id="harborModal" tabindex="-1" aria-labelledby="harborModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="harborModalLabel">Harbor - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/harbor-cascada.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/harbor-domo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/harbor-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/harbor-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Gekko -->
+        <div class="modal gekko" id="gekkoModal" tabindex="-1" aria-labelledby="gekkoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="gekkoModalLabel">gekko - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/gekko-carnalito.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/gekko-pogo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/gekko-vertigo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/gekko-paliza.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Deadlock -->
+        <div class="modal deadlock" id="deadlockModal" tabindex="-1" aria-labelledby="deadlockModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deadlockModalLabel">Deadlock - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/deadlock-malla.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/deadlock-orbe.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/deadlock-sensor.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/deadlock-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Iso -->
+        <div class="modal iso" id="isoModal" tabindex="-1" aria-labelledby="isoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="isoModalLabel">Iso - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/iso-debilitar.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/iso-escudo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/iso-muro.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/iso-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Clove -->
+        <div class="modal clove" id="cloveModal" tabindex="-1" aria-labelledby="cloveModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cloveModalLabel">Clove - Habilidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Habilidad 1: GLOW</h6>
+                        <video src="imagenes/clove-debuff.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga cegadora y DISPARA para lanzar una ráfaga de acción rápida a través de una pared. .</p>
+                        
+    
+                        <h6>Habilidad 2: SEISMIC FAULT</h6>
+                        <video src="imagenes/clove-heal.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA un rayo sísmico para iniciar el temblor y aturdir a todos los jugadores que estén en la zona.</p>
+    
+                        <h6>Habilidad 3: REPLICA</h6>
+                        <video src="imagenes/clove-humo.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>EQUIPA una carga de fusión para lanzar una ráfaga de acción lenta a través de una pared.</p>
+    
+                        <h6>Ultimate: ROLLING THUNDER</h6>
+                        <video src="imagenes/clove-ulti.mp4"  frameborder="0" controls autoplay loop muted height="300px"></video>
+                        <p>Envia un temblor en cascada por una gran zona cónica..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p>&copy; 2024 Proyecto Valorant. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

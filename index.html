@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - Experiencia Interactiva</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Valorant</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Valorant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#characters">Agentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maps">Mapas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="display-4">Descubre Valorant</h1>
+            <p class="lead">Sumérgete en el mundo de Valorant y explora sus características únicas.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section my-5">
+            <h1 class="text-center mb-4">Sobre Valorant</h1>
+            <div class="card p-4">
+                <h2>Introducción</h2>
+                <p>Valorant es un juego de disparos táctico en primera persona que combina habilidades únicas de personajes con estrategias de equipo para ofrecer una experiencia de juego emocionante.</p>
+                <a href="sobre.html" class="btn btn-primary">Leer más</a>
+            </div>
+        </section>
+
+        <section id="characters" class="section my-5">
+            <h1 class="text-center mb-4">Agentes</h1>
+            <div class="card p-4">
+                <h2>Conoce a los Agentes</h2>
+                <p>Cada agente en Valorant tiene habilidades únicas que pueden cambiar el curso de una partida. Conoce a cada uno y sus habilidades.</p>
+                <a href="agentes.html" class="btn btn-primary">Ver lista de agentes</a>
+            </div>
+        </section>
+
+        <section id="maps" class="section my-5">
+            <h1 class="text-center mb-4">Mapas</h1>
+            <div class="card p-4">
+                <h2>Explora los Mapas</h2>
+                <p>Valorant presenta una variedad de mapas, cada uno con sus propios desafíos y estrategias. Descubre cada uno de ellos y sus características.</p>
+                <a href="mapas.html" class="btn btn-primary">Ver mapas</a>
+            </div>
+        </section>
+
+        <section id="news" class="section my-5">
+            <h1 class="text-center mb-4">Noticias</h1>
+            <div id="newsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card p-4">
+                                <h2>Última Actualización</h2>
+                                <p>Descubre las últimas novedades en Valorant.</p>
+                                <a href="noticias.html" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card p-4">
+                                <h2>Nuevo Agente</h2>
+                                <p>Conoce al nuevo agente que se ha unido a la batalla.</p>
+                                <a href="noticias.html" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card p-4">
+                                <h2>Evento Especial</h2>
+                                <p>Participa en el evento especial de este mes en Valorant.</p>
+                                <a href="noticias.html" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="py-4 text-center">
+        <p>&copy; 2024 Valorant. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
